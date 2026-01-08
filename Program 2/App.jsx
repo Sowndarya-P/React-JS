@@ -1,5 +1,3 @@
-Todolist.jsx
-
 import { useState } from "react";
 
 function Todolist() {
@@ -36,19 +34,4 @@ function Todolist() {
 }
 
 export default Todolist;
-
-
-main.jsx
-import { StrictMode } from 'react'
-import { createRoot } from 'react-dom/client'
-import './index.css'
-import App from './App.jsx'
-import Todolist from './Todolist.jsx'
-
-createRoot(document.getElementById('root')).render(
-  <StrictMode>
-    <App />
-    <Todolist/>
-  </StrictMode>,
-)
 
