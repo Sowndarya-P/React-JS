@@ -1,0 +1,11 @@
+:root {
+text-align: center;
+}
+.bgchange{
+  height: 200px;
+  width: 200px;
+  border: 1px solid grey;
+  margin-left: 400px;
+  margin-top: 10px;
+ 
+}
